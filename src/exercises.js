@@ -4,13 +4,38 @@ function commonEnd(a, b) {
   }
 
   // write your code here
+  const aFirst = a[0];
+  const aLast = a[a.length - 1];
+  const bFirst = b[0];
+  const bLast = b[b.length - 1];
+
+  if (aFirst == bFirst) {
+    return true;
+  }
+  else if (aLast == bLast) {
+    return true;
+  }
+
+  return false;
 }
 
 function endsMeet(values, n) {
-  // write your code here
+  if (!values || n > values.length || n <= 0) {
+    return [];
+  }
+  const nFirst = values.slice(0, n);
+  const nLast = values.slice(values.length - n, values.length);
+
+  return nFirst.concat(nLast);
 }
 
 function difference(numbers) {
+if (!numbers || numbers.length === 1 || number.isNaN){
+  return undefined;
+}
+const numMin = Math.min.apply(null, numbers);
+const numMax = Math.min.apply(null, numbers);
+
   // write your code here
 }
 
