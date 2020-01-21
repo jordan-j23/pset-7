@@ -20,23 +20,7 @@ function commonEnd(a, b) {
 }
 
 function endsMeet(values, n) {
-  if (!values || n > values.length || n <= 0) {
-    return [];
-  }
-  const nFirst = values.slice(0, n);
-  const nLast = values.slice(values.length - n, values.length);
-
-  return nFirst.concat(nLast);
-}
-
-function difference(numbers) {
-if (!numbers || numbers.length === 1 || number.isNaN){
-  return undefined;
-}
-const numMin = Math.min.apply(null, numbers);
-const numMax = Math.min.apply(null, numbers);
-
-  // write your code here
+  
 }
 
 function max(number) {
