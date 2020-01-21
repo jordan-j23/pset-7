@@ -41,7 +41,7 @@ function endsMeet(values, n) {
     return values;
   }
 
-  // write your code here
+  
 }
 
 function difference(numbers) {
