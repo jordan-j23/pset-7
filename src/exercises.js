@@ -179,7 +179,7 @@ function everywhere(values, x) {
     return false;
   }
 
-  // write your code here
+  
 }
 
 function consecutive(numbers) {
