@@ -95,8 +95,7 @@ function max(number) {
     let largest = Math.max.apply(null, newArray);
     return largest;
     }
-  // write your code here
-}
+  
 
 function middle(values) {
   let empty = [];
