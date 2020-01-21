@@ -247,7 +247,7 @@ function balance(numbers) {
   if (count === 0) {
     return false;
   }
-  // write your code here
+  
   console.log("test");
 }
 
