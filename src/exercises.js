@@ -285,5 +285,3 @@ module.exports = {
   balance,
   clumps
 }; 
-
-
