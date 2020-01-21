@@ -266,7 +266,7 @@ function clumps(values) {
   }
   return count;
   }
-  // write your code here
+ 
 }
 
 /*
