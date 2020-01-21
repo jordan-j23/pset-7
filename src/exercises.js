@@ -211,7 +211,7 @@ function consecutive(numbers) {
   if (status === false) {
     return false;
   }
-  // write your code here
+  
 }
 
 function balance(numbers) {
