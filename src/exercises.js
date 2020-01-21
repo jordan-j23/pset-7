@@ -61,7 +61,7 @@ function difference(numbers) {
   } else {
     return undefined;
   }
-  // write your code here
+
 }
 
 function max(number) {
