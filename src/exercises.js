@@ -3,7 +3,6 @@ function commonEnd(a, b) {
     return false;
   }
 
- 
   const aFirst = a[0];
   const aLast = a[a.length - 1];
   const bFirst = b[0];
@@ -116,9 +115,7 @@ function middle(values) {
   newArray.push(middle);
   newArray.push(afterMiddle);
   return newArray;
-  // write your code here
-}
-
+  
 function increasing(numbers) {
   if (!numbers || numbers.length < 3) {
     return false;
