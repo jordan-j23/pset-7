@@ -144,7 +144,7 @@ function increasing(numbers) {
   } else {
     return false;
   }
-  // write your code here
+  
 }
 
 function everywhere(values, x) {
