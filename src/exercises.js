@@ -40,7 +40,7 @@ function endsMeet(values, n) {
     return values;
   }
 
-  
+
 }
 
 function difference(numbers) {
@@ -94,7 +94,7 @@ function max(number) {
     let largest = Math.max.apply(null, newArray);
     return largest;
     }
-  
+}
 
 function middle(values) {
   let empty = [];
@@ -115,7 +115,8 @@ function middle(values) {
   newArray.push(middle);
   newArray.push(afterMiddle);
   return newArray;
-  
+}
+
 function increasing(numbers) {
   if (!numbers || numbers.length < 3) {
     return false;
@@ -141,7 +142,7 @@ function increasing(numbers) {
   } else {
     return false;
   }
-  
+
 }
 
 function everywhere(values, x) {
@@ -179,7 +180,7 @@ function everywhere(values, x) {
     return false;
   }
 
-  
+
 }
 
 function consecutive(numbers) {
@@ -211,7 +212,7 @@ function consecutive(numbers) {
   if (status === false) {
     return false;
   }
-  
+
 }
 
 function balance(numbers) {
@@ -247,7 +248,7 @@ function balance(numbers) {
   if (count === 0) {
     return false;
   }
-  
+
   console.log("test");
 }
 
@@ -266,7 +267,7 @@ function clumps(values) {
   }
   return count;
   }
- 
+
 }
 
 /*
@@ -284,4 +285,4 @@ module.exports = {
   consecutive,
   balance,
   clumps
-}; 
+};
